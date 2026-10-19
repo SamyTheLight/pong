@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://ceu771rqxpk0b"]
+
+[ext_resource type="Script" uid="uid://clkf6ipbxuqxm" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="Texture2D" uid="uid://c5xcftlpdyji0" path="res://assets/left_pallete.png" id="2_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://b4edet8q8wh35" path="res://assets/right_pallete.png" id="3_tefeu"]
+[ext_resource type="Texture2D" uid="uid://b6hnyn8a6u1uj" path="res://assets/separator.png" id="4_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://cw7vfgfcfjd7b" path="res://assets/ball.png" id="5_tipki"]
+
+[node name="main" type="Node2D" unique_id=1417737746]
+script = ExtResource("1_o5qli")
+
+[node name="left" type="Sprite2D" parent="." unique_id=1684755523]
+position = Vector2(67, 183)
+texture = ExtResource("2_tbgi4")
+
+[node name="right" type="Sprite2D" parent="." unique_id=892830539]
+position = Vector2(577, 187)
+texture = ExtResource("3_tefeu")
+
+[node name="separator" type="Sprite2D" parent="." unique_id=555742166]
+position = Vector2(320, 200)
+texture = ExtResource("4_o6xl0")
+
+[node name="ball" type="Sprite2D" parent="." unique_id=1132131562]
+position = Vector2(320, 188)
+texture = ExtResource("5_tipki")
